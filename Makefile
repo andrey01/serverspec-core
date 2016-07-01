@@ -1,4 +1,4 @@
-bundle = bundle install --standalone --binstubs --without=development
+bundle = bundle install --standalone --binstubs
 release := $(shell lsb_release -rs)
 tarball:
 	if [[ "$(release)" =~ 6\..* ]]; then    \

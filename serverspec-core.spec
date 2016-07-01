@@ -3,7 +3,7 @@
 Name:             serverspec-core
 Summary:          GoodData ServerSpec integration
 Version:          1.9.5
-Release:          2%{?dist}.gdc
+Release:          3%{?dist}.gdc
 
 Vendor:           GoodData
 Group:            GoodData/Tools
@@ -71,7 +71,10 @@ GoodData ServerSpec integration - core package
 %exclude %{install_dir}/spec/types/.gitignore
 
 %changelog
-* Thu Mar 31 2016 Yury Tsarev <yury.tsarev@gooddata.com> 1.9.5-1%{?dist}.gdc
+* Fri Jul 01 2016 Andrey Arapov <andrey.arapov@gooddata.com> 1.9.5-3%{?dist}.gdc
+- Enable development gem group
+
+* Thu Mar 31 2016 Yury Tsarev <yury.tsarev@gooddata.com> 1.9.5-2%{?dist}.gdc
 - Provide parallel console output for junit enabled rubocop run
 
 * Wed Mar 16 2016 Yury Tsarev <yury.tsarev@gooddata.com> 1.9.4-1%{?dist}.gdc
